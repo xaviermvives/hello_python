@@ -5,10 +5,10 @@ A loop is a segment of code that repeats. You will be introduced to two types of
 - use a 'for' loop
 
 OTHER
-'random' module to generate random numbers
-input() -> gets data from user, as a string data type
-int() -> to convert into integer 
-range() ->takes a starting number and an ending number, but the ending number is not inclusive
+- 'random' module to generate random numbers
+- input() -> gets data from user, as a string data type
+- int() -> to convert into integer 
+- range() ->takes a starting number and an ending number, but the ending number is not inclusive
 
 A 'while' loop makes a section of code repeat until a certain condition is met.
 
