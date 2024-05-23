@@ -13,6 +13,11 @@ Note: Functions should perform a specific task. Usually, because functions perfo
 OTHER
 - find()
 - To help with debugging and understanding the program, print() statements were added, but they are not strictly necessary for the program to operate correctly
+- if ...in ... -> 'in' operadot de pertenencia (membership operator) evalúa si un objeto es miembro de otro
+Exemaples:
+1 in [1,2,3] ->True
+5 in [1,2,3] ->False
+"c" in "abcd" ->True
 
 RESUM
 MAIN FUNCTION: runCaesarCipherProgram()

@@ -1,4 +1,4 @@
-# Caesar cipher is based on moving (in the alphabet) a fixed number of times (according to the key) every letter of a message
+# Caesar cipher is based on shifting (in the alphabet) a fixed number of times (according to the key) every letter of a message
 
 # in order to use the cipher on every letter of the message we need to double the alphabet
 def getDoubleAlphabet(alphabet):
@@ -24,10 +24,10 @@ def encryptMessage(message, cipherKey, alphabet):
     encryptedMessage = ''
     uppercaseMessage = ''
     uppercaseMessage = message.upper()
-    for currentCharacter in uppercaseMessage:
+    for currentCharacter in uppercaseMessage: 
         position = alphabet.find(currentCharacter)
         newPosition = position + int(cipherKey)
-        if currentCharacter in alphabet:
+        if currentCharacter in alphabet: # 'in' -> membership operator
             encryptedMessage = encryptedMessage + alphabet[newPosition]
         else:
             encryptedMessage = encryptedMessage + currentCharacter
